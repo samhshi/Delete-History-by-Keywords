@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "History Keyword Cleaner",
+    "version": "1.0",
+    "description": "Remove specific history entries based on keywords in URLs or page titles.",
+    "permissions": [
+        "history",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
